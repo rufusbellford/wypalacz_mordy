@@ -10,15 +10,17 @@
 		758B554117CE4F9F00A0A9C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758B554017CE4F9F00A0A9C8 /* UIKit.framework */; };
 		758B554317CE4F9F00A0A9C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758B554217CE4F9F00A0A9C8 /* Foundation.framework */; };
 		758B554517CE4F9F00A0A9C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758B554417CE4F9F00A0A9C8 /* CoreGraphics.framework */; };
-		758B554B17CE4F9F00A0A9C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 758B554917CE4F9F00A0A9C8 /* InfoPlist.strings */; };
-		758B554D17CE4F9F00A0A9C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 758B554C17CE4F9F00A0A9C8 /* main.m */; };
-		758B555117CE4F9F00A0A9C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 758B555017CE4F9F00A0A9C8 /* AppDelegate.m */; };
-		758B555317CE4F9F00A0A9C8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 758B555217CE4F9F00A0A9C8 /* Default.png */; };
-		758B555517CE4F9F00A0A9C8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 758B555417CE4F9F00A0A9C8 /* Default@2x.png */; };
-		758B555717CE4F9F00A0A9C8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 758B555617CE4F9F00A0A9C8 /* Default-568h@2x.png */; };
 		758B555A17CE4F9F00A0A9C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758B555917CE4F9F00A0A9C8 /* ViewController.m */; };
 		758B555D17CE4F9F00A0A9C8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758B555B17CE4F9F00A0A9C8 /* ViewController.xib */; };
+
 		758B556517CE593600A0A9C8 /* SpeedUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 758B556417CE593600A0A9C8 /* SpeedUpView.m */; };
+
+		AA1BCF4A17CE5C2100C9A3DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1BCF4417CE5C2100C9A3DE /* AppDelegate.m */; };
+		AA1BCF4B17CE5C2100C9A3DE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1BCF4517CE5C2100C9A3DE /* Default-568h@2x.png */; };
+		AA1BCF4C17CE5C2100C9A3DE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1BCF4617CE5C2100C9A3DE /* Default.png */; };
+		AA1BCF4D17CE5C2100C9A3DE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1BCF4717CE5C2100C9A3DE /* Default@2x.png */; };
+		AA1BCF4E17CE5C2100C9A3DE /* wypalacz_mordy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA1BCF4817CE5C2100C9A3DE /* wypalacz_mordy-Info.plist */; };
+		AA1BCF5317CE5E0800C9A3DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1BCF5217CE5E0800C9A3DE /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,20 +28,21 @@
 		758B554017CE4F9F00A0A9C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		758B554217CE4F9F00A0A9C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		758B554417CE4F9F00A0A9C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		758B554817CE4F9F00A0A9C8 /* wypalacz_mordy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wypalacz_mordy-Info.plist"; sourceTree = "<group>"; };
-		758B554A17CE4F9F00A0A9C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		758B554C17CE4F9F00A0A9C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		758B554E17CE4F9F00A0A9C8 /* wypalacz_mordy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wypalacz_mordy-Prefix.pch"; sourceTree = "<group>"; };
-		758B554F17CE4F9F00A0A9C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		758B555017CE4F9F00A0A9C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		758B555217CE4F9F00A0A9C8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		758B555417CE4F9F00A0A9C8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		758B555617CE4F9F00A0A9C8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		758B555817CE4F9F00A0A9C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		758B555917CE4F9F00A0A9C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		758B555C17CE4F9F00A0A9C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+
 		758B556317CE593600A0A9C8 /* SpeedUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedUpView.h; sourceTree = "<group>"; };
 		758B556417CE593600A0A9C8 /* SpeedUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedUpView.m; sourceTree = "<group>"; };
+
+		AA1BCF4317CE5C2100C9A3DE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA1BCF4417CE5C2100C9A3DE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA1BCF4517CE5C2100C9A3DE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AA1BCF4617CE5C2100C9A3DE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AA1BCF4717CE5C2100C9A3DE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AA1BCF4817CE5C2100C9A3DE /* wypalacz_mordy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wypalacz_mordy-Info.plist"; sourceTree = "<group>"; };
+		AA1BCF4917CE5C2100C9A3DE /* wypalacz_mordy-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "wypalacz_mordy-Prefix.pch"; sourceTree = "<group>"; };
+		AA1BCF5217CE5E0800C9A3DE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			children = (
 				758B554617CE4F9F00A0A9C8 /* wypalacz_mordy */,
 				758B553F17CE4F9F00A0A9C8 /* Frameworks */,
+				AA1BCF4217CE5C2100C9A3DE /* SupportingFiles */,
+				AA1BCF4F17CE5C7300C9A3DE /* Resources */,
 				758B553E17CE4F9F00A0A9C8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,30 +91,56 @@
 		758B554617CE4F9F00A0A9C8 /* wypalacz_mordy */ = {
 			isa = PBXGroup;
 			children = (
-				758B554F17CE4F9F00A0A9C8 /* AppDelegate.h */,
-				758B555017CE4F9F00A0A9C8 /* AppDelegate.m */,
 				758B555817CE4F9F00A0A9C8 /* ViewController.h */,
 				758B555917CE4F9F00A0A9C8 /* ViewController.m */,
 				758B555B17CE4F9F00A0A9C8 /* ViewController.xib */,
+
 				758B556317CE593600A0A9C8 /* SpeedUpView.h */,
 				758B556417CE593600A0A9C8 /* SpeedUpView.m */,
 				758B554717CE4F9F00A0A9C8 /* Supporting Files */,
+
 			);
 			path = wypalacz_mordy;
 			sourceTree = "<group>";
 		};
-		758B554717CE4F9F00A0A9C8 /* Supporting Files */ = {
+		AA1BCF4217CE5C2100C9A3DE /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				758B554817CE4F9F00A0A9C8 /* wypalacz_mordy-Info.plist */,
-				758B554917CE4F9F00A0A9C8 /* InfoPlist.strings */,
-				758B554C17CE4F9F00A0A9C8 /* main.m */,
-				758B554E17CE4F9F00A0A9C8 /* wypalacz_mordy-Prefix.pch */,
-				758B555217CE4F9F00A0A9C8 /* Default.png */,
-				758B555417CE4F9F00A0A9C8 /* Default@2x.png */,
-				758B555617CE4F9F00A0A9C8 /* Default-568h@2x.png */,
+				AA1BCF5217CE5E0800C9A3DE /* main.m */,
+				AA1BCF4317CE5C2100C9A3DE /* AppDelegate.h */,
+				AA1BCF4417CE5C2100C9A3DE /* AppDelegate.m */,
+				AA1BCF4517CE5C2100C9A3DE /* Default-568h@2x.png */,
+				AA1BCF4617CE5C2100C9A3DE /* Default.png */,
+				AA1BCF4717CE5C2100C9A3DE /* Default@2x.png */,
+				AA1BCF4817CE5C2100C9A3DE /* wypalacz_mordy-Info.plist */,
+				AA1BCF4917CE5C2100C9A3DE /* wypalacz_mordy-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			name = SupportingFiles;
+			path = wypalacz_mordy/SupportingFiles;
+			sourceTree = "<group>";
+		};
+		AA1BCF4F17CE5C7300C9A3DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA1BCF5017CE5C7300C9A3DE /* Fonts */,
+				AA1BCF5117CE5C7300C9A3DE /* Graphics */,
+			);
+			name = Resources;
+			path = wypalacz_mordy/Resources;
+			sourceTree = "<group>";
+		};
+		AA1BCF5017CE5C7300C9A3DE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AA1BCF5117CE5C7300C9A3DE /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,11 +194,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				758B554B17CE4F9F00A0A9C8 /* InfoPlist.strings in Resources */,
-				758B555317CE4F9F00A0A9C8 /* Default.png in Resources */,
-				758B555517CE4F9F00A0A9C8 /* Default@2x.png in Resources */,
-				758B555717CE4F9F00A0A9C8 /* Default-568h@2x.png in Resources */,
 				758B555D17CE4F9F00A0A9C8 /* ViewController.xib in Resources */,
+				AA1BCF4B17CE5C2100C9A3DE /* Default-568h@2x.png in Resources */,
+				AA1BCF4C17CE5C2100C9A3DE /* Default.png in Resources */,
+				AA1BCF4D17CE5C2100C9A3DE /* Default@2x.png in Resources */,
+				AA1BCF4E17CE5C2100C9A3DE /* wypalacz_mordy-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,24 +209,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				758B554D17CE4F9F00A0A9C8 /* main.m in Sources */,
-				758B555117CE4F9F00A0A9C8 /* AppDelegate.m in Sources */,
 				758B555A17CE4F9F00A0A9C8 /* ViewController.m in Sources */,
+
 				758B556517CE593600A0A9C8 /* SpeedUpView.m in Sources */,
+
+				AA1BCF4A17CE5C2100C9A3DE /* AppDelegate.m in Sources */,
+				AA1BCF5317CE5E0800C9A3DE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		758B554917CE4F9F00A0A9C8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				758B554A17CE4F9F00A0A9C8 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		758B555B17CE4F9F00A0A9C8 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -267,8 +292,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "wypalacz_mordy/wypalacz_mordy-Prefix.pch";
-				INFOPLIST_FILE = "wypalacz_mordy/wypalacz_mordy-Info.plist";
+				GCC_PREFIX_HEADER = "wypalacz_mordy/SupportingFiles/wypalacz_mordy-Prefix.pch";
+				INFOPLIST_FILE = "wypalacz_mordy/SupportingFiles/wypalacz_mordy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -278,8 +303,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "wypalacz_mordy/wypalacz_mordy-Prefix.pch";
-				INFOPLIST_FILE = "wypalacz_mordy/wypalacz_mordy-Info.plist";
+				GCC_PREFIX_HEADER = "wypalacz_mordy/SupportingFiles/wypalacz_mordy-Prefix.pch";
+				INFOPLIST_FILE = "wypalacz_mordy/SupportingFiles/wypalacz_mordy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -304,6 +329,7 @@
 				758B556217CE4F9F00A0A9C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
