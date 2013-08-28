@@ -18,6 +18,7 @@
 		758B555717CE4F9F00A0A9C8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 758B555617CE4F9F00A0A9C8 /* Default-568h@2x.png */; };
 		758B555A17CE4F9F00A0A9C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758B555917CE4F9F00A0A9C8 /* ViewController.m */; };
 		758B555D17CE4F9F00A0A9C8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758B555B17CE4F9F00A0A9C8 /* ViewController.xib */; };
+		758B556517CE593600A0A9C8 /* SpeedUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 758B556417CE593600A0A9C8 /* SpeedUpView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		758B555817CE4F9F00A0A9C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		758B555917CE4F9F00A0A9C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		758B555C17CE4F9F00A0A9C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		758B556317CE593600A0A9C8 /* SpeedUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedUpView.h; sourceTree = "<group>"; };
+		758B556417CE593600A0A9C8 /* SpeedUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedUpView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				758B555817CE4F9F00A0A9C8 /* ViewController.h */,
 				758B555917CE4F9F00A0A9C8 /* ViewController.m */,
 				758B555B17CE4F9F00A0A9C8 /* ViewController.xib */,
+				758B556317CE593600A0A9C8 /* SpeedUpView.h */,
+				758B556417CE593600A0A9C8 /* SpeedUpView.m */,
 				758B554717CE4F9F00A0A9C8 /* Supporting Files */,
 			);
 			path = wypalacz_mordy;
@@ -176,6 +181,7 @@
 				758B554D17CE4F9F00A0A9C8 /* main.m in Sources */,
 				758B555117CE4F9F00A0A9C8 /* AppDelegate.m in Sources */,
 				758B555A17CE4F9F00A0A9C8 /* ViewController.m in Sources */,
+				758B556517CE593600A0A9C8 /* SpeedUpView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
