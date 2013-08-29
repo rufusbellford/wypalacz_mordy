@@ -10,7 +10,6 @@
 		758B554117CE4F9F00A0A9C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758B554017CE4F9F00A0A9C8 /* UIKit.framework */; };
 		758B554317CE4F9F00A0A9C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758B554217CE4F9F00A0A9C8 /* Foundation.framework */; };
 		758B554517CE4F9F00A0A9C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758B554417CE4F9F00A0A9C8 /* CoreGraphics.framework */; };
-		758B555A17CE4F9F00A0A9C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758B555917CE4F9F00A0A9C8 /* ViewController.m */; };
 		758B555D17CE4F9F00A0A9C8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758B555B17CE4F9F00A0A9C8 /* ViewController.xib */; };
 		758B556517CE593600A0A9C8 /* SpeedUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 758B556417CE593600A0A9C8 /* SpeedUpView.m */; };
 		75C200FD17CE5FAC008D9E7D /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C200FC17CE5FAC008D9E7D /* BaseView.m */; };
@@ -29,8 +28,6 @@
 		758B554017CE4F9F00A0A9C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		758B554217CE4F9F00A0A9C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		758B554417CE4F9F00A0A9C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		758B555817CE4F9F00A0A9C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		758B555917CE4F9F00A0A9C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		758B555C17CE4F9F00A0A9C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		758B556317CE593600A0A9C8 /* SpeedUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedUpView.h; sourceTree = "<group>"; };
 		758B556417CE593600A0A9C8 /* SpeedUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedUpView.m; sourceTree = "<group>"; };
@@ -48,6 +45,7 @@
 		AA1BCF4817CE5C2100C9A3DE /* wypalacz_mordy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wypalacz_mordy-Info.plist"; sourceTree = "<group>"; };
 		AA1BCF4917CE5C2100C9A3DE /* wypalacz_mordy-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "wypalacz_mordy-Prefix.pch"; sourceTree = "<group>"; };
 		AA1BCF5217CE5E0800C9A3DE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA90C3B717CF940D00F1E6F2 /* BaseViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +96,10 @@
 			children = (
 				75C200FE17CE5FB7008D9E7D /* Controllers */,
 				75C200FA17CE5FAC008D9E7D /* Views */,
-				758B555817CE4F9F00A0A9C8 /* ViewController.h */,
-				758B555917CE4F9F00A0A9C8 /* ViewController.m */,
 				758B555B17CE4F9F00A0A9C8 /* ViewController.xib */,
 				758B556317CE593600A0A9C8 /* SpeedUpView.h */,
 				758B556417CE593600A0A9C8 /* SpeedUpView.m */,
+				AA90C3B717CF940D00F1E6F2 /* BaseViewDelegate.h */,
 			);
 			path = wypalacz_mordy;
 			sourceTree = "<group>";
@@ -233,7 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				758B555A17CE4F9F00A0A9C8 /* ViewController.m in Sources */,
 				758B556517CE593600A0A9C8 /* SpeedUpView.m in Sources */,
 				AA1BCF4A17CE5C2100C9A3DE /* AppDelegate.m in Sources */,
 				AA1BCF5317CE5E0800C9A3DE /* main.m in Sources */,

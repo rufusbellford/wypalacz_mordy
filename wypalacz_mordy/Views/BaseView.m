@@ -10,8 +10,6 @@
 
 @implementation BaseView
 
-@synthesize delegate;
-
 - (void)viewDidLoad
 {
     

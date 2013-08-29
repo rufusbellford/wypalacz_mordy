@@ -8,9 +8,9 @@
 
 #import "BaseController.h"
 
-@implementation BaseController
+#import "BaseView.h"
 
-@synthesize delegate;
+@implementation BaseController
 
 - (void)viewDidLoad
 {
