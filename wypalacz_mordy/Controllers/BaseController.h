@@ -7,12 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
 #import "BaseView.h"
 
 @protocol BaseControllerDelegate;
 
-@interface BaseController : UIViewController<BaseViewDelegate>
+@interface BaseController : UIViewController <BaseViewDelegate>
 {
     id<BaseControllerDelegate> delegate;
 }
