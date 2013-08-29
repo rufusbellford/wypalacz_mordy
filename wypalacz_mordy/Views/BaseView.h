@@ -12,7 +12,7 @@
 
 @interface BaseView : UIView <BaseControllerDelegate>
 {
-    id<BaseViewDelegate> _delegate;
+//    id<BaseViewDelegate> _delegate;
 }
 
 @property(nonatomic) id<BaseViewDelegate> delegate;

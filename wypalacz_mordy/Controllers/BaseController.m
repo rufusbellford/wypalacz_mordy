@@ -17,8 +17,8 @@
     [super viewDidLoad];
     
     self.delegate = (BaseView *) self.view;
-    ((BaseView *) self.view).delegate = self;
-    [self.delegate viewDidLoad];
+//    ((BaseView *) self.view).delegate = self;
+//    [self.delegate viewDidLoad];
 }
 
 #pragma mark BaseViewDelegate

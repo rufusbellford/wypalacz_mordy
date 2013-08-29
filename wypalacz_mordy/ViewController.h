@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Smulski&Cieciwa. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : BaseController
 
 @end

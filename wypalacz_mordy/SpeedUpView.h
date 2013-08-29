@@ -13,6 +13,7 @@
 @protocol SpeedUpViewDelegate <NSObject>
 @optional
 - (void)speedUpViewDidStart:(SpeedUpView *)view;
+- (void)speedUpView:(SpeedUpView *)speedUpView didSpeedUpWithSpeed:(float)speed;
 
 @end
 
