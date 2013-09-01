@@ -10,7 +10,6 @@
 		758B554117CE4F9F00A0A9C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758B554017CE4F9F00A0A9C8 /* UIKit.framework */; };
 		758B554317CE4F9F00A0A9C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758B554217CE4F9F00A0A9C8 /* Foundation.framework */; };
 		758B554517CE4F9F00A0A9C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758B554417CE4F9F00A0A9C8 /* CoreGraphics.framework */; };
-		758B555D17CE4F9F00A0A9C8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758B555B17CE4F9F00A0A9C8 /* ViewController.xib */; };
 		75C200FD17CE5FAC008D9E7D /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C200FC17CE5FAC008D9E7D /* BaseView.m */; };
 		75C2010117CE5FB7008D9E7D /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75C2010017CE5FB7008D9E7D /* BaseController.m */; };
 		AA1BCF4A17CE5C2100C9A3DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1BCF4417CE5C2100C9A3DE /* AppDelegate.m */; };
@@ -19,8 +18,10 @@
 		AA1BCF4D17CE5C2100C9A3DE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1BCF4717CE5C2100C9A3DE /* Default@2x.png */; };
 		AA1BCF4E17CE5C2100C9A3DE /* wypalacz_mordy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA1BCF4817CE5C2100C9A3DE /* wypalacz_mordy-Info.plist */; };
 		AA1BCF5317CE5E0800C9A3DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1BCF5217CE5E0800C9A3DE /* main.m */; };
-		BFF3B48C17D34585001045EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3B48917D344CB001045EC /* ViewController.m */; };
 		BFF3B48D17D34585001045EC /* SpeedUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3B48B17D34536001045EC /* SpeedUpView.m */; };
+		BFF3B49017D34718001045EC /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3B48F17D34718001045EC /* MainController.m */; };
+		BFF3B49317D3472D001045EC /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3B49217D3472D001045EC /* MainView.m */; };
+		BFF3B49517D34746001045EC /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFF3B49417D34746001045EC /* MainView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +29,6 @@
 		758B554017CE4F9F00A0A9C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		758B554217CE4F9F00A0A9C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		758B554417CE4F9F00A0A9C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		758B555C17CE4F9F00A0A9C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		75C200FB17CE5FAC008D9E7D /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
 		75C200FC17CE5FAC008D9E7D /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
 		75C200FF17CE5FB7008D9E7D /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
@@ -42,10 +42,13 @@
 		AA1BCF4917CE5C2100C9A3DE /* wypalacz_mordy-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "wypalacz_mordy-Prefix.pch"; sourceTree = "<group>"; };
 		AA1BCF5217CE5E0800C9A3DE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA90C3B717CF940D00F1E6F2 /* BaseViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewDelegate.h; sourceTree = "<group>"; };
-		BFF3B48817D344CB001045EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BFF3B48917D344CB001045EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BFF3B48A17D34536001045EC /* SpeedUpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeedUpView.h; sourceTree = "<group>"; };
 		BFF3B48B17D34536001045EC /* SpeedUpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedUpView.m; sourceTree = "<group>"; };
+		BFF3B48E17D34718001045EC /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		BFF3B48F17D34718001045EC /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		BFF3B49117D3472D001045EC /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		BFF3B49217D3472D001045EC /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		BFF3B49417D34746001045EC /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +99,6 @@
 			children = (
 				75C200FE17CE5FB7008D9E7D /* Controllers */,
 				75C200FA17CE5FAC008D9E7D /* Views */,
-				758B555B17CE4F9F00A0A9C8 /* ViewController.xib */,
 				AA90C3B717CF940D00F1E6F2 /* BaseViewDelegate.h */,
 			);
 			path = wypalacz_mordy;
@@ -109,6 +111,9 @@
 				BFF3B48B17D34536001045EC /* SpeedUpView.m */,
 				75C200FB17CE5FAC008D9E7D /* BaseView.h */,
 				75C200FC17CE5FAC008D9E7D /* BaseView.m */,
+				BFF3B49117D3472D001045EC /* MainView.h */,
+				BFF3B49217D3472D001045EC /* MainView.m */,
+				BFF3B49417D34746001045EC /* MainView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,10 +121,10 @@
 		75C200FE17CE5FB7008D9E7D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BFF3B48817D344CB001045EC /* ViewController.h */,
-				BFF3B48917D344CB001045EC /* ViewController.m */,
 				75C200FF17CE5FB7008D9E7D /* BaseController.h */,
 				75C2010017CE5FB7008D9E7D /* BaseController.m */,
+				BFF3B48E17D34718001045EC /* MainController.h */,
+				BFF3B48F17D34718001045EC /* MainController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -215,11 +220,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				758B555D17CE4F9F00A0A9C8 /* ViewController.xib in Resources */,
 				AA1BCF4B17CE5C2100C9A3DE /* Default-568h@2x.png in Resources */,
 				AA1BCF4C17CE5C2100C9A3DE /* Default.png in Resources */,
 				AA1BCF4D17CE5C2100C9A3DE /* Default@2x.png in Resources */,
 				AA1BCF4E17CE5C2100C9A3DE /* wypalacz_mordy-Info.plist in Resources */,
+				BFF3B49517D34746001045EC /* MainView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,27 +235,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFF3B48C17D34585001045EC /* ViewController.m in Sources */,
 				BFF3B48D17D34585001045EC /* SpeedUpView.m in Sources */,
 				AA1BCF4A17CE5C2100C9A3DE /* AppDelegate.m in Sources */,
 				AA1BCF5317CE5E0800C9A3DE /* main.m in Sources */,
 				75C200FD17CE5FAC008D9E7D /* BaseView.m in Sources */,
 				75C2010117CE5FB7008D9E7D /* BaseController.m in Sources */,
+				BFF3B49017D34718001045EC /* MainController.m in Sources */,
+				BFF3B49317D3472D001045EC /* MainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		758B555B17CE4F9F00A0A9C8 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				758B555C17CE4F9F00A0A9C8 /* en */,
-			);
-			name = ViewController.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		758B555E17CE4F9F00A0A9C8 /* Debug */ = {

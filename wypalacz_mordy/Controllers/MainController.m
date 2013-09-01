@@ -1,19 +1,14 @@
 //
-//  ViewController.m
+//  MainController.m
 //  wypalacz_mordy
 //
-//  Created by Migdał on 8/28/13.
+//  Created by Radosław Cięciwa on 01.09.2013.
 //  Copyright (c) 2013 Smulski&Cieciwa. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "SpeedUpView.h"
+#import "MainController.h"
 
-@interface ViewController () <SpeedUpViewDelegate>
-
-@end
-
-@implementation ViewController
+@implementation MainController
 
 - (void)viewDidLoad
 {
