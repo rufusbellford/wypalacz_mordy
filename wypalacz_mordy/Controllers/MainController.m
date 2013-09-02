@@ -8,36 +8,51 @@
 
 #import "MainController.h"
 
+#import <QuartzCore/QuartzCore.h>
+
+#import "MainView.h"
+
 @implementation MainController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    [self addSpeedUpView];
+    MainView *mainView = (MainView *) self.view;
+//    [mainView setupSpeedView];
+//    mainView.speedUpView.delegate = self;
+    mainView.scrollView.dataSource = self;
+    [mainView.scrollView setupWithLooping:YES];
 }
 
-- (void)addSpeedUpView
+#pragma RCInfiniteSmoothScrollView
+- (int)numberOfObjectsToLoop
 {
-    float width = 80.0;
-    float top = 20.0;
-    CGRect frame = CGRectMake(CGRectGetWidth(self.view.frame) - width - 10.0, top,
-                              width, CGRectGetHeight(self.view.frame) - 2*top);
-    SpeedUpView *view = [SpeedUpView createWithFrame:frame];
-    view.backgroundColor = [UIColor blueColor];
-    view.delegate = self;
-    view.userInteractionEnabled = YES;
-    
-    [self.view addSubview:view];
+    return 16;
 }
 
-- (void)didReceiveMemoryWarning
+- (UIView *)smoothViewForIndex:(int)viewIndex withReusableView:(UIView *)convertView
 {
-    [super didReceiveMemoryWarning];
+    UILabel *label = (UILabel *)convertView;
+    
+    if (label == nil)
+    {
+        label = [[UILabel alloc] initWithFrame:(CGRect){{0,0}, {80, 80}}];
+        label.layer.borderWidth = 2.0f;
+        label.layer.borderColor = [UIColor blackColor].CGColor;
+        label.layer.cornerRadius = 2.0f;
+        label.textAlignment = NSTextAlignmentCenter;
+    }
+    
+    label.text = [NSString stringWithFormat:@"%d", viewIndex];
+    return label;
+}
+
+- (CGSize)sizeOfSmoothViewElement
+{
+    return CGSizeMake(80, 80);
 }
 
 #pragma mark - SPEEDUPVIEW
-
 - (void)speedUpView:(SpeedUpView *)speedUpView didSpeedUpWithSpeed:(float)speed
 {
     NSLog(@"current speed %f", speed);

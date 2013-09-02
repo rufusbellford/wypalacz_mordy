@@ -9,7 +9,8 @@
 #import "BaseController.h"
 
 #import "SpeedUpView.h"
+#import "RCInfiniteSmoothScrollView.h"
 
-@interface MainController : BaseController<SpeedUpViewDelegate>
+@interface MainController : BaseController<SpeedUpViewDelegate, RCInfiniteSmoothScrollViewDataSource>
 
 @end

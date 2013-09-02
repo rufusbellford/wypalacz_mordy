@@ -16,7 +16,7 @@ typedef enum
     ScrollDirectionRight
 } ScrollDirection;
 
-@protocol RCInfiniteSmoothScrollViewDelegate <NSObject>
+@protocol RCInfiniteSmoothScrollViewDataSource <NSObject>
 
 @required
 - (int)numberOfObjectsToLoop;
@@ -42,7 +42,7 @@ typedef enum
 }
 
 //@property(nonatomic, copy) smoothViewForIndex blockDataSource;
-@property(nonatomic, weak) id<RCInfiniteSmoothScrollViewDelegate> dataSource;
+@property(nonatomic, weak) id<RCInfiniteSmoothScrollViewDataSource> dataSource;
 
 - (void)setup;
 - (void)setupWithLooping:(BOOL)shouldLooping;

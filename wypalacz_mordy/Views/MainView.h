@@ -8,6 +8,14 @@
 
 #import "BaseView.h"
 
+@class RCInfiniteSmoothScrollView;
+@class SpeedUpView;
+
 @interface MainView : BaseView
+
+@property(nonatomic) SpeedUpView *speedUpView;
+@property(nonatomic) IBOutlet RCInfiniteSmoothScrollView *scrollView;
+
+- (void)setupSpeedView;
 
 @end
