@@ -18,6 +18,8 @@
 		AA1BCF4D17CE5C2100C9A3DE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA1BCF4717CE5C2100C9A3DE /* Default@2x.png */; };
 		AA1BCF4E17CE5C2100C9A3DE /* wypalacz_mordy-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA1BCF4817CE5C2100C9A3DE /* wypalacz_mordy-Info.plist */; };
 		AA1BCF5317CE5E0800C9A3DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1BCF5217CE5E0800C9A3DE /* main.m */; };
+		AA7ED4AC17D4E22A00DC6DE2 /* RCInfiniteSmoothScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7ED4A917D4E22A00DC6DE2 /* RCInfiniteSmoothScrollView.m */; };
+		AA7ED4AD17D4E22A00DC6DE2 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7ED4AB17D4E22A00DC6DE2 /* UIView+Layout.m */; };
 		BFF3B48D17D34585001045EC /* SpeedUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3B48B17D34536001045EC /* SpeedUpView.m */; };
 		BFF3B49017D34718001045EC /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3B48F17D34718001045EC /* MainController.m */; };
 		BFF3B49317D3472D001045EC /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF3B49217D3472D001045EC /* MainView.m */; };
@@ -41,6 +43,10 @@
 		AA1BCF4817CE5C2100C9A3DE /* wypalacz_mordy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wypalacz_mordy-Info.plist"; sourceTree = "<group>"; };
 		AA1BCF4917CE5C2100C9A3DE /* wypalacz_mordy-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "wypalacz_mordy-Prefix.pch"; sourceTree = "<group>"; };
 		AA1BCF5217CE5E0800C9A3DE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA7ED4A817D4E22A00DC6DE2 /* RCInfiniteSmoothScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCInfiniteSmoothScrollView.h; sourceTree = "<group>"; };
+		AA7ED4A917D4E22A00DC6DE2 /* RCInfiniteSmoothScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCInfiniteSmoothScrollView.m; sourceTree = "<group>"; };
+		AA7ED4AA17D4E22A00DC6DE2 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		AA7ED4AB17D4E22A00DC6DE2 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 		AA90C3B717CF940D00F1E6F2 /* BaseViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewDelegate.h; sourceTree = "<group>"; };
 		BFF3B48A17D34536001045EC /* SpeedUpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpeedUpView.h; sourceTree = "<group>"; };
 		BFF3B48B17D34536001045EC /* SpeedUpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedUpView.m; sourceTree = "<group>"; };
@@ -107,6 +113,7 @@
 		75C200FA17CE5FAC008D9E7D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AA7ED4A717D4E22A00DC6DE2 /* InfiniteScrollLib */,
 				BFF3B48A17D34536001045EC /* SpeedUpView.h */,
 				BFF3B48B17D34536001045EC /* SpeedUpView.m */,
 				75C200FB17CE5FAC008D9E7D /* BaseView.h */,
@@ -167,6 +174,17 @@
 			children = (
 			);
 			path = Graphics;
+			sourceTree = "<group>";
+		};
+		AA7ED4A717D4E22A00DC6DE2 /* InfiniteScrollLib */ = {
+			isa = PBXGroup;
+			children = (
+				AA7ED4A817D4E22A00DC6DE2 /* RCInfiniteSmoothScrollView.h */,
+				AA7ED4A917D4E22A00DC6DE2 /* RCInfiniteSmoothScrollView.m */,
+				AA7ED4AA17D4E22A00DC6DE2 /* UIView+Layout.h */,
+				AA7ED4AB17D4E22A00DC6DE2 /* UIView+Layout.m */,
+			);
+			path = InfiniteScrollLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +260,8 @@
 				75C2010117CE5FB7008D9E7D /* BaseController.m in Sources */,
 				BFF3B49017D34718001045EC /* MainController.m in Sources */,
 				BFF3B49317D3472D001045EC /* MainView.m in Sources */,
+				AA7ED4AC17D4E22A00DC6DE2 /* RCInfiniteSmoothScrollView.m in Sources */,
+				AA7ED4AD17D4E22A00DC6DE2 /* UIView+Layout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
