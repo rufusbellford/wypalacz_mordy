@@ -37,8 +37,10 @@ typedef enum
     NSMutableArray *listOfViews;
     CGFloat centerOffsetX;
     int viewsCountPerScreen;
+    float viewWidth;
     BOOL isAnimating;
     BOOL shouldLoopContent;
+    int *viewIndexes;
 }
 
 //@property(nonatomic, copy) smoothViewForIndex blockDataSource;
